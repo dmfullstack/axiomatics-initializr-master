@@ -6,6 +6,48 @@
 
 Axiomatics Spring Initialzr is a fork of Spring Initialzr that includes Axiomatics PEP dependencies.
 
+== Axiomatics Specific Installation Steps
+
+The Axiomatics PEP SDK JARs must be requested from the Axiomatics support. 
+
+Then you need to install the JARs in your local `.m2` using the following syntax:
+
+[source, bash]
+----
+mvn install:install-file -Dfile=<path-to-file> -DgroupId=<group-id> \
+    -DartifactId=<artifact-id> -Dversion=<version> -Dpackaging=<packaging>
+----
+
+The groupIds and artificatIds used by the Axiomatics Spring Initialzr are the following:
+
+[source, xml]
+----
+		<dependency>
+			<groupId>com.axiomatics</groupId>
+			<artifactId>xacml-core</artifactId>
+			<version>5.51</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.axiomatics</groupId>
+			<artifactId>xacml-request-api</artifactId>
+			<version>5.17</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.axiomatics</groupId>
+			<artifactId>pep-sdk</artifactId>
+			<version>5.3-4.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.axiomatics</groupId>
+			<artifactId>pep-spring</artifactId>
+			<version>1.3.0</version>
+		</dependency>
+----
+
+
 Spring Initializr provides an extensible API to generate quickstart projects. It also
 provides a configurable service (you can see our default instance at
 link:https://start.spring.io[]). It provides a simple web UI to configure the project
