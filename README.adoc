@@ -47,7 +47,9 @@ The groupIds and artificatIds used by the Axiomatics Spring Initialzr are the fo
 		</dependency>
 ----
 
+NOTE: What follows is now documentation from Spring Initialzr and is NOT Axiomatics specific. 
 
+== Overview of Spring Initialzr
 Spring Initializr provides an extensible API to generate quickstart projects. It also
 provides a configurable service (you can see our default instance at
 link:https://start.spring.io[]). It provides a simple web UI to configure the project
