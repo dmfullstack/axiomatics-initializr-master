@@ -262,6 +262,15 @@ public class ProjectGenerator {
 				"XACMLSecurityExpressionHandler." + extension, model);
 		// end try
 		
+		// try to write XACMLWebSecurityExpressionRoot
+		write(new File(src, "XACMLWebSecurityExpressionRoot" + "." + extension),
+				"XACMLWebSecurityExpressionRoot." + extension, model);
+		// end try
+		
+		// try to write XACMLWebSecurityExpressionHandler
+		write(new File(src, "XACMLWebSecurityExpressionHandler" + "." + extension),
+				"XACMLWebSecurityExpressionHandler." + extension, model);
+		// end try
 		
 		if ("war".equals(request.getPackaging())) {
 			String fileName = "ServletInitializer." + extension;
