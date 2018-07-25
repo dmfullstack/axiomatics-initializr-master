@@ -7,7 +7,7 @@ import org.springframework.security.authentication.AuthenticationTrustResolverIm
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Component;
 
-import com.axiomatics.configuration.XACMLSecurityExpressionRoot;
+import {{packageName}}.XACMLSecurityExpressionRoot;
 
 package {{packageName}};
 
