@@ -251,7 +251,12 @@ public class ProjectGenerator {
 		String extension = ("kotlin".equals(language) ? "kt" : language);
 		write(new File(src, applicationName + "." + extension),
 				"Application." + extension, model);
-
+		// try to write XACMLSecurityExpressionRoot
+		
+		write(new File(src, "XACMLSecurityExpressionRoot" + "." + extension),
+				"XACMLSecurityExpressionRoot." + extension, model);
+		// end try
+		
 		if ("war".equals(request.getPackaging())) {
 			String fileName = "ServletInitializer." + extension;
 			write(new File(src, fileName), fileName, model);
