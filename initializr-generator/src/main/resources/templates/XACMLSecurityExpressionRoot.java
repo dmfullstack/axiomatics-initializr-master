@@ -16,7 +16,7 @@ import com.axiomatics.sdk.context.SDKResponse;
 // Don't alter the annotations above the class name - they are needed.
 @Component
 @Lazy
-public class XACMLSecurityExpressionRoot {
+public class XACMLSecurityExpressionRoot extends AbstractXACMLSecurityExpressionRoot{
 	
 	public XACMLSecurityExpressionRoot(Authentication a) {
 		super(a);

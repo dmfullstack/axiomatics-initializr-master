@@ -6,7 +6,7 @@
 
 Axiomatics Spring Initializr is a fork of Spring Initialzr that includes Axiomatics PEP dependencies. This is a personal project and not officially supported by Axiomatics.
 
-IMPORTANT: Both Gradle and Maven builds are supported. Groovy and Kotlin are not supported yet. 
+IMPORTANT: Both Gradle and Maven builds are supported. Groovy and Kotlin are not supported yet. Many other features are planned too and some can be seen in the issues page here on Github.
 
 == Axiomatics Specific Installation Steps
 
