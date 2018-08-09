@@ -1,3 +1,4 @@
+package {{packageName}};
 import org.aopalliance.intercept.MethodInvocation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
@@ -9,7 +10,7 @@ import org.springframework.stereotype.Component;
 
 import {{packageName}}.XACMLSecurityExpressionRoot;
 
-package {{packageName}};
+
 
 @Component
 public class XACMLSecurityExpressionHandler extends DefaultMethodSecurityExpressionHandler{

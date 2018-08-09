@@ -1,4 +1,4 @@
-
+package {{packageName}};
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.security.access.expression.SecurityExpressionOperations;
@@ -10,7 +10,7 @@ import org.springframework.security.web.access.expression.DefaultWebSecurityExpr
 import org.springframework.security.web.access.expression.WebSecurityExpressionRoot;
 import org.springframework.stereotype.Component;
 
-package {{packageName}};
+
 
 @Component
 public class XACMLWebSecurityExpressionHandler extends DefaultWebSecurityExpressionHandler {

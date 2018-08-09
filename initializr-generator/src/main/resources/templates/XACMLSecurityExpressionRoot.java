@@ -1,3 +1,4 @@
+package {{packageName}};
 import java.util.Collection;
 import java.util.Iterator;
 
@@ -11,7 +12,6 @@ import org.springframework.stereotype.Component;
 
 import com.axiomatics.sdk.context.SDKResponse;
 
-package {{packageName}};
 
 // Don't alter the annotations above the class name - they are needed.
 @Component

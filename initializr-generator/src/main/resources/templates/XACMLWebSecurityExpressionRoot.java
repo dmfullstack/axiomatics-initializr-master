@@ -1,4 +1,4 @@
-
+package {{packageName}};
 import java.util.Collection;
 import java.util.Iterator;
 import javax.servlet.http.HttpServletRequest;
@@ -14,7 +14,6 @@ import org.springframework.stereotype.Component;
 
 import com.axiomatics.spring.security.xacml.AbstractXACMLWebSecurityExpressionRoot;
 
-package {{packageName}};
 @Component
 @Lazy
 public class XACMLWebSecurityExpressionRoot extends AbstractXACMLWebSecurityExpressionRoot {
