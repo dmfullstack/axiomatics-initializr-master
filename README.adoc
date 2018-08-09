@@ -4,9 +4,9 @@
 :code: https://github.com/spring-io/initializr/blob/master
 :docs: http://docs.spring.io/initializr/docs/current-SNAPSHOT/reference
 
-Axiomatics Spring Initialzr is a fork of Spring Initialzr that includes Axiomatics PEP dependencies.
+Axiomatics Spring Initialzr is a fork of Spring Initialzr that includes Axiomatics PEP dependencies. This is a personal project and not officially supported by Axiomatics.
 
-IMPORTANT: Currently, only Java with Maven is supported. Other languages and Gradle will be tested and worked on in the future.
+IMPORTANT: Both Gradle and Maven builds are supported. Groovy and Kotlin are not supported yet. 
 
 == Axiomatics Specific Installation Steps
 
